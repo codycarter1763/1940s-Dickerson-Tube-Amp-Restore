@@ -1,14 +1,14 @@
 # 1940s Dickerson Tube Amp Restore
 
 # About
-This is a build log on a restoration of a salvaged 1940's Dickerson tube amp. The amp came from my grandparents who were always collecting vintage jukeboxes, arcade machines, slot machines, vending machines, and other vintage electronics. The amp came from my great grandparents who were New Orleans musicians and part of a band where they both were in a band playing lap steel guitar and accordian in the 40's through 50's. When I stumbled on this vintage tube amp, I knew that this would be the perfect project to learn about vacuum tubes, amp restoration, and have the opportunity to bring new life to such legendary gear. 
+This is a build log on a restoration of a salvaged 1940's Dickerson tube amp. The amp came from my grandparents who were always collecting vintage jukeboxes, arcade machines, slot machines, vending machines, and other vintage electronics. The amp came from my great grandparents who were New Orleans musicians and part of a band where they both were in a band playing lap steel guitar and accordion in the 40's through 50's. When I stumbled on this vintage tube amp, I knew that this would be the perfect project to learn about vacuum tubes, amp restoration, and have the opportunity to bring new life to such legendary gear. 
 
 # History Of Dickerson
 Dickerson amplifiers was founded in Southern California by Delbert J. Dickerson and played a huge role in developing amplifiers that were the precursor to the legendary Magnatone brand. The inspiration came from finding a solution to making an electric lap steel guitar and amp for his daughter. With this being the first electric instrument to be patented, this idea caught on fast. Originally designed for Hawaiian guitarists in Southern California, this was one of the first mass-produced steel and amp combos that was commercially successful. 
 
 ![US2209016-drawings-page-1](https://github.com/user-attachments/assets/947f42c8-c1a2-40a2-aa15-833724704f0d)
 
-After the shift to Magnatone, business started booming and more units were being sold. Artists such as Buddy Holly, Paul Bigsby, and Lonnie Mack were the early pioneers of Magnatone and helped release new amp technology that created a distinct vibrato reverb. The legacy and history of these amps span a long period of time and have inspired many lap steel, accordian, harmonica, and so many more players. 
+After the shift to Magnatone, business started booming and more units were being sold. Artists such as Buddy Holly, Paul Bigsby, and Lonnie Mack were the early pioneers of Magnatone and helped release new amp technology that created a distinct vibrato reverb. The legacy and history of these amps span a long period of time and have inspired many lap steel, accordion, harmonica, and so many more players. 
 
 For this amp in particular, this model was created in 1947 and used a single-ended design with 6V6 power tubes, Rola field-coil speaker, two inputs, and 5 watts of power. This model was known for its' driven overdrive tone and is comparable to early Supro and Fender Champ amplifiers. The outside finish has a green "mother of pearl" or also known as "mother of toilet" that is very distinct. 
 
@@ -22,7 +22,7 @@ For this amplifier restoration, I have opted to keep everything as original as p
 Before ordering the components, I tested for continuity and proper resistance for all of the transfromers and speaker coils. Thankfully, everything was still operational.
 
 ## Schematic Diagram and Analysis
-As the circuit inside the amp was alightly different than any other schematic that I could find online, I traced out the circuit diagram to see what I was working with. 
+As the circuit inside the amp was slightly different than any other schematic that I could find online, I traced out the circuit diagram to see what I was working with. 
 
 ![Dickerson Amp Schematic Fixed V2_page-0001](https://github.com/user-attachments/assets/20c55132-d040-475d-8202-8a2ac99a5e0b)
 
@@ -58,7 +58,7 @@ Instead of the three capacitor can capacitor, I opted to just replace it with th
 ![image](https://github.com/user-attachments/assets/109a167c-b60a-40f8-aa88-a3e28b3a9b0c)
 
 # Aesthetics
-The condition of the amp was super rusted and dirty when I first received it. In an effort to preserve the original finish and logo, I took extra care in the cleaning process. For the metal chassis, I used a wire brush and WD-40 to remove a large portion of the rust. I was not able to get all of the rust off, but it already looks so much better without having to repaint the chassis. The handle was sanded and soaked in Muratic Acid for 24 hours which removed all of the rust for a brand new finish. 
+The condition of the amp was super rusted and dirty when I first received it. In an effort to preserve the original finish and logo, I took extra care in the cleaning process. For the metal chassis, I used a wire brush and WD-40 to remove a large portion of the rust. I was not able to get all of the rust off, but it already looks so much better without having to repaint the chassis. The handle was sanded and soaked in Muriatic Acid for 24 hours which removed all of the rust for a brand new finish. 
 
 For the mother of pearl vinyl, I used mineral oil and a soft towel to carefully clean and restore the finish. Glue was also used to place back the peeling parts of the vinyl. 
 
