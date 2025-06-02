@@ -17,7 +17,9 @@ For this amp in particular, this model was created in 1947 and used a single-end
 ![053aee929880d18f6db7836267eed1d4](https://github.com/user-attachments/assets/f0572574-6d4e-437d-b583-5f17b63c8821)
 
 # Restoration Process
-For this amplifier restoration, I have opted to keep everything as original as possible, only replacing the necessary components to preserve the aesthetics and reliably operate. Since this amp used oil capacitors and carbon composition resistors, the components all tested out of tolerance so I replaced those components with their more modern electrolytic and metal film and carbon film counterparts.
+For this amplifier restoration, I have opted to keep everything as original as possible, only replacing the necessary components to preserve the aesthetics and reliably operate. Since this amp used oil capacitors and carbon composition resistors, the components all tested out of tolerance so I replaced those components with their more modern electrolytic and metal film and carbon film counterparts. 
+
+Before ordering the components, I tested for continuity and proper resistance for all of the transfromers and speaker coils. Thankfully, everything was still operational.
 
 ## Schematic Diagram and Analysis
 As the circuit inside the amp was alightly different than any other schematic that I could find online, I traced out the circuit diagram to see what I was working with. 
@@ -49,5 +51,18 @@ fc = 1 / 2pi(20uF)(300) = 26.53Hz
 ![image](https://github.com/user-attachments/assets/c7252280-de1f-4980-8dd1-23261756daff)
 
 ## Power Supply Stage
-The power supply stage uses an iso-transformer to convert the 120VAC from the wall to the various voltages needed for operation. The 365VAC signal is rectified to DC with a 5Y3GT rectifier tube for the amp heaters. 
+The power supply stage uses an iso-transformer to convert the 120VAC from the wall to the various voltages needed for operation. The 365VAC signal is rectified to DC with a 5Y3GT rectifier tube for the amp. The infamous .05uF death cap was removed in the final restoration due to safety concerns if the capacitor fails where 120VAC can be shorted to ground. I also upgraded to a 3 prong cable for added safety since the chassis will be grounded.
+
+Instead of the three capacitor can capacitor, I opted to just replace it with three seperate 20uF electrolytic capacitors. Such designs were used back in the day to save space and money, though with reliable and cheap capacitors nowadays you can use seperate capacitors. As a result, I was able to install the capacitors close to the power suppply rails to reduce noise. To keep the vintage look, I left the can capacitor installed in the socket. 
+
 ![image](https://github.com/user-attachments/assets/109a167c-b60a-40f8-aa88-a3e28b3a9b0c)
+
+# Aesthetics
+The condition of the amp was super rusted and dirty when I first received it. In an effort to preserve the original finish and logo, I took extra care in the cleaning process. For the metal chassis, I used a wire brush and WD-40 to remove a large portion of the rust. I was not able to get all of the rust off, but it already looks so much better without having to repaint the chassis. The handle was sanded and soaked in Muratic Acid for 24 hours which removed all of the rust for a brand new finish. 
+
+For the mother of pearl vinyl, I used mineral oil and a soft towel to carefully clean and restore the finish. Glue was also used to place back the peeling parts of the vinyl. 
+
+# Finished Product
+Below is some before and after photos of the Dickerson Tube amp. This amp really came a long way and I learned a ton on how vacuum tubes work and the restoration process. Super happy that I was able to bring new life to such a vintage amp! The amp sounds great on its' own and even better when driven with a tube screamer, fuzz face, or Klon type overdrive. 
+
+As I make any upgrades or updates, I will update this repository.
