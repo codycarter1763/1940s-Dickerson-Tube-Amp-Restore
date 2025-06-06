@@ -1,7 +1,20 @@
 # 1940s Dickerson Tube Amp Restore
 
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/645d1149-88da-4d76-9d55-1ae71cb736c1" width="48%" height="48%" alt="Left Image">
+  <img src="https://github.com/user-attachments/assets/7ed48e65-59fb-4d7f-88f8-652cb52f060e" width="48%" height="48%" alt="Right Image">
+</p> 
+
+
 # About
 This is a build log on a restoration of a salvaged 1940's Dickerson tube amp. The amp came from my grandparents who were always collecting vintage jukeboxes, arcade machines, slot machines, vending machines, and other vintage electronics. The amp came from my great grandparents who were New Orleans musicians and part of a band where they both were in a band playing lap steel guitar and accordion in the 40's through 50's. When I stumbled on this vintage tube amp, I knew that this would be the perfect project to learn about vacuum tubes, amp restoration, and have the opportunity to bring new life to such legendary gear. 
+
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/0cc5638d-2aa4-4626-9a4b-37657408b8c1" width="48%" height="48%" alt="Left Image">
+  <img src="https://github.com/user-attachments/assets/976be195-f448-4a44-baa0-f8da2c6d56ec" width="48%" height="48%" alt="Right Image">
+</p> 
+
+![I6](https://github.com/user-attachments/assets/198c0680-5f02-4732-88bc-0f84088d126a)
 
 # History Of Dickerson
 Dickerson amplifiers was founded in Southern California by Delbert J. Dickerson and played a huge role in developing amplifiers that were the precursor to the legendary Magnatone brand. The inspiration came from finding a solution to making an electric lap steel guitar and amp for his daughter. With this being the first electric instrument to be patented, this idea caught on fast. Originally designed for Hawaiian guitarists in Southern California, this was one of the first mass-produced steel and amp combos that was commercially successful. 
@@ -20,6 +33,9 @@ For this amp in particular, this model was created in 1947 and used a single-end
 For this amplifier restoration, I have opted to keep everything as original as possible, only replacing the necessary components to preserve the aesthetics and reliably operate. Since this amp used oil capacitors and carbon composition resistors, the components all tested out of tolerance so I replaced those components with their more modern electrolytic and metal film and carbon film counterparts. 
 
 Before ordering the components, I tested for continuity and proper resistance for all of the transfromers and speaker coils. Thankfully, everything was still operational.
+
+### Completed Rewiring
+![IMG_6](https://github.com/user-attachments/assets/f2c4b995-21c1-489b-9592-f2b5210dec96)
 
 ## Schematic Diagram and Analysis
 As the circuit inside the amp was slightly different than any other schematic that I could find online, I traced out the circuit diagram to see what I was working with. 
@@ -60,9 +76,15 @@ Instead of the three capacitor can capacitor, I opted to just replace it with th
 # Aesthetics
 The condition of the amp was super rusted and dirty when I first received it. In an effort to preserve the original finish and logo, I took extra care in the cleaning process. For the metal chassis, I used a wire brush and WD-40 to remove a large portion of the rust. I was not able to get all of the rust off, but it already looks so much better without having to repaint the chassis. The handle was sanded and soaked in Muriatic Acid for 24 hours which removed all of the rust for a brand new finish. 
 
-For the mother of pearl vinyl, I used mineral oil and a soft towel to carefully clean and restore the finish. Glue was also used to place back the peeling parts of the vinyl. 
+For the mother of pearl vinyl, I used mineral oil and a soft towel to carefully clean and restore the finish. Contact cement was also used to place back the peeling parts of the vinyl. 
 
 # Finished Product
-Below is some before and after photos of the Dickerson Tube amp. This amp really came a long way and I learned a ton on how vacuum tubes work and the restoration process. Super happy that I was able to bring new life to such a vintage amp! The amp sounds great on its' own and even better when driven with a tube screamer, fuzz face, or Klon type overdrive. 
+This amp really came a long way and I learned a ton on how vacuum tubes work and the restoration process. Super happy that I was able to bring new life to such a vintage amp! The amp sounds great on its' own and even better when driven with a tube screamer, fuzz face, or Klon type overdrive. 
 
 As I make any upgrades or updates, I will update this repository.
+
+Here are some good resources that I used to help restore this amp.
+
+https://www.reddit.com/r/GuitarAmps/comments/1ksckc8/found_this_1940s_dickerson_tube_amp_is_it_worth/
+
+https://www.reddit.com/r/ToobAmps/comments/1kvfkn3/1940s_dickerson_tube_amp_restore_quick_question/
