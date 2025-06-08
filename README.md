@@ -38,11 +38,11 @@ Before ordering the components, I tested for continuity and proper resistance fo
 ![IMG_6](https://github.com/user-attachments/assets/f2c4b995-21c1-489b-9592-f2b5210dec96)
 
 ## Schematic Diagram and Analysis
-As the circuit inside the amp was slightly different than any other schematic that I could find online, I traced out the circuit diagram to see what I was working with. 
+As the circuit inside the amp was slightly different than any other schematic that I could find online, I traced out the circuit diagram to see what I was working with. Included in the schematic are modifications I added to the circuit for added reliablity and gain.
 
-![Dickerson Amp Schematic Fixed V2_page-0001](https://github.com/user-attachments/assets/20c55132-d040-475d-8202-8a2ac99a5e0b)
+[1947 Dickerson Amp W Mods V3.pdf](https://github.com/user-attachments/files/20642794/1947.Dickerson.Amp.W.Mods.V3.pdf)
 
-The design follows a single-ended 6V6 design operating as a Class A amplifier and producing 4 to 5 watts of power. Especially when driven with pedals, this amp puts out some serious volume with a smooth, harmonically rich sound. 
+The design follows a single-ended 6V6 design operating as a Class A amplifier and producing 4 to 5 watts of power. Especially when driven with pedals, this amp puts out some surpisingly serious volume with a smooth, harmonically rich sound. 
 
 ### Input Stage
 The input stage uses a 6SJ7 pentode tube that will boost the signal enough to be fed into the 6V6 power stage. Since the amp was mostly used for lap steel, accordian, and harmonica, I switched the 510k resistor to a 1Meg resistor to prevent tone sucking from the guitar signal. 
@@ -58,20 +58,30 @@ The power stage uses a 6V6 tube and operates in a single ended configuration whe
 
 The output from pin 3 feeds to an output transformer that converts the high impedance output signal to a low impedance signal and removes the high voltage DC offset applied to the amplified AC signal. This also acts as a choke for the power supply that will store current in the primary coil of the transformer and release it if extra power is needed. Such configuration eases the load off of the power supply and vacuum tubes.
 
-The speaker used is called a field coil speaker used before permanent magnet speakers became widely used. The high voltage DC signal from the rectifier tube provides the power needed to power the electromagnent in the speaker. These types of speakers are known for their dynamic and warm distinct tone. 
+The speaker used is called a field coil speaker used before permanent magnent speakers became widely used. The high voltage DC signal from the rectifier tube provides the power needed to power the electromagnent in the speaker. These types of speakers are known for their dynamic and warm distinct tone. 
 
-On pin 8 of the 6V6, an RC network attentuates the guitar tone to 27Hz, increases gain, and sets the bias. 
+On pin 8 of the 6V6, an RC network attentuates the guitar tone to 27Hz, sets the bias, and sets the amount of headroom the tube has before distorting. 
+
+### Screen Mod
+A modification I installed in the amp is called the screen mod. Adding a 500 ohm resistor in series to pin 4 of the 6V6 tube decreases the current and increases drive and distortion. The higher the resistance, the more compression and drive the tube will have. It really changed the tonal characteristics and made for a much fuller sound. 
 
 fc = 1 / 2pi(20uF)(300) = 26.53Hz
 
-![image](https://github.com/user-attachments/assets/c7252280-de1f-4980-8dd1-23261756daff)
+![image](https://github.com/user-attachments/assets/311a54b7-e951-4daa-b1ee-7a136d6da77d)
+
 
 ## Power Supply Stage
-The power supply stage uses an iso-transformer to convert the 120VAC from the wall to the various voltages needed for operation. The 365VAC signal is rectified to DC with a 5Y3GT rectifier tube for the amp. The infamous .05uF death cap was removed in the final restoration due to safety concerns if the capacitor fails where 120VAC can be shorted to ground. I also upgraded to a 3 prong cable for added safety since the chassis will be grounded.
+The power supply stage uses an iso-transformer to convert the 120VAC from the wall to the various voltages needed for operation. The 365VAC signal is rectified to DC with a 5Y3GT rectifier tube for the amp. The infamous .05uF death cap was removed in the final restoration due to safety concerns if the capacitor fails where 120VAC at 10 amps can be shorted to ground. I also upgraded to a 3 prong cable for added safety since the chassis will be grounded.
 
 Instead of the three capacitor can capacitor, I opted to just replace it with three seperate 20uF electrolytic capacitors. Such designs were used back in the day to save space and money, though with reliable and cheap capacitors nowadays you can use seperate capacitors. As a result, I was able to install the capacitors close to the power suppply rails to reduce noise. To keep the vintage look, I left the can capacitor installed in the socket. 
 
-![image](https://github.com/user-attachments/assets/109a167c-b60a-40f8-aa88-a3e28b3a9b0c)
+### Protection Diode Mod
+This mod came from Rob Robinette's website filled with many tube amp mods. This mod is called the protection diode mod and helps decrease rectifier tube load and increases the life span of the 5Y3 tube. I used UF4007 diodes for my amp but 1N4007 diodes can also be used. 
+
+### Disharge Resistor
+This mod disharges residual charges from the capacitors in the circuit to ground when powered off. I used a 1Meg resistor but anything greater than 100kOhm will suffice. There is no effect on tone, this is purely for added safety when working with the components on the chassis. 
+
+![image](https://github.com/user-attachments/assets/df712653-85c9-4ae4-b6ad-6cd690788e33)
 
 # Aesthetics
 The condition of the amp was super rusted and dirty when I first received it. In an effort to preserve the original finish and logo, I took extra care in the cleaning process. For the metal chassis, I used a wire brush and WD-40 to remove a large portion of the rust. I was not able to get all of the rust off, but it already looks so much better without having to repaint the chassis. The handle was sanded and soaked in Muriatic Acid for 24 hours which removed all of the rust for a brand new finish. 
