@@ -40,6 +40,8 @@ Before ordering the components, I tested for continuity and proper resistance fo
 ## Schematic Diagram and Analysis
 As the circuit inside the amp was slightly different than any other schematic that I could find online, I traced out the circuit diagram to see what I was working with. Included in the schematic are modifications I added to the circuit for added reliablity and gain.
 
+![1947 Dickerson Amp W Mods V3-1](https://github.com/user-attachments/assets/56a8daae-4e3a-4658-894e-19487797c1af)
+
 [1947 Dickerson Amp W Mods V3.pdf](https://github.com/user-attachments/files/20642794/1947.Dickerson.Amp.W.Mods.V3.pdf)
 
 The design follows a single-ended 6V6 design operating as a Class A amplifier and producing 4 to 5 watts of power. Especially when driven with pedals, this amp puts out some surpisingly serious volume with a smooth, harmonically rich sound. 
@@ -77,6 +79,8 @@ Instead of the three capacitor can capacitor, I opted to just replace it with th
 
 ### Protection Diode Mod
 This mod came from Rob Robinette's website filled with many tube amp mods. This mod is called the protection diode mod and helps decrease rectifier tube load and increases the life span of the 5Y3 tube. I used UF4007 diodes for my amp but 1N4007 diodes can also be used. 
+
+![image](https://github.com/user-attachments/assets/7e0947d7-b236-42a6-a0a2-de074fe74ca9)
 
 ### Disharge Resistor
 This mod disharges residual charges from the capacitors in the circuit to ground when powered off. I used a 1Meg resistor but anything greater than 100kOhm will suffice. There is no effect on tone, this is purely for added safety when working with the components on the chassis. 
